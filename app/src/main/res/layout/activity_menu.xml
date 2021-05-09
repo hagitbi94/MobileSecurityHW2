@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activity_Menu">
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:text="Start Game"
+        android:id="@+id/menu_BTN_start"/>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:counterMaxLength="9"
+        app:counterEnabled="true"
+        android:layout_centerHorizontal="true"
+        android:hint="ID"
+        android:layout_marginTop="48dp">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/menu_EDT_id"
+        android:inputType="number"
+        android:ems="10"
+        />
+
+</com.google.android.material.textfield.TextInputLayout>
+
+</RelativeLayout>
